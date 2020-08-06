@@ -60,7 +60,7 @@
 <title>Satvik24-2020Webs</title>
 </head>
 <body>
-<marquee><h3><mark>This Web is re-creation of Satvik24 webs. A updated version of bit.ly/satvik24</mark></h3></marquee>
+<marquee><h3><mark>This Web is re-creation of Satvik24 webs. A updated version of <a href="https://satvik24.github.io/satvik.24/">Original Web</a></mark></h3></marquee>
   <p id="demo"></p>
 
 <script>
@@ -114,7 +114,26 @@ var x = setInterval(function() {
     </div>
   </div>
 </div>
+    <center><h4>
+<button onclick="typeWriter()">Next Update info</button>
+
+<p id="demo"></p>
+
+<script>
+var i = 0;
+var txt = 'Next Update= 20.2.4. Bug fixes and UI improvements.Available on September 3 2020';
+var speed = 50;
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("demo").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+</script>
+</h4></center>
 </center>
-  <center><h5>Old outdated Website = <a href="bit.ly/satvik24">Satvik24(2017)</a>. &#169; Satvik24Webs</h5></center>
+  <center><h5>Old outdated Website = <a href="https://satvik24.github.io/satvik.24/">Satvik24(2017)</a>. &#169; Satvik24Webs</h5></center>
 </body>
 <//html>
