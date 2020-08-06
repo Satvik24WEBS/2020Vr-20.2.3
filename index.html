@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
     {
@@ -82,26 +82,26 @@
   </div>
 </div><br>
     <br>
-    <center><h4>
+    <center>
 <button onclick="typeWriter()">Next Update info</button>
 
 <p id="demo"></p>
 
 <script>
 var i = 0;
-var txt = 'Next Update= 20.2.4. Bug fixes and UI improvements.Available on September 3 2020';
+var txt = ' 20.2.4. Bug fixes and UI improvements.Available on September 3 2020';
 var speed = 50;
 
 function typeWriter() {
   if (i < txt.length) {
     document.getElementById("demo").innerHTML += txt.charAt(i);
     i++;
-    setTimeout(typeWriter, speed);
+    setTimeout(typeWriter,speed);
   }
 }
 </script>
-</h4></center>
-<button type="button" onclick="alert('Scanned the web 3 times for threats/malware and no threats found.You are safe on the web')">Quick Site scan!</button>
+</center>
+<button type="button" onclick="alert('Scanned the web 1 times for threats/malware and no threats found.You are safe on the web, Do not press again, unless reloaded/closed this web')">Quick Site scan!</button>
   <br>
   <br>
   <br>
